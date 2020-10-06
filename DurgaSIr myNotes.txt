@@ -1,0 +1,45 @@
+Advantage of Package :-
+
+PACKAGE NAMING COVENTIONS:-
+
+@com.icicibank.loan.holding.account
+
+	clint/domain name
+	module name 
+	sub-modulename
+	class name
+
+
+univesal nameing covention for package naming convention
+
+javac test.java
+ 
+ 1)generated .class file will be placed in current working directory
+ 
+ 2) javac -d . test.java
+
+	 @ d = destination to generated class file
+	  @ . - current working directory 
+	 
+Generated .class file will be placed in corresponding directory structure
+
+
+
+
+
+ACCESS MODIFIERES
+
+public private protected defoult consider as specifiers accepet this remaining are considered as modifiers but this rules applicable for only old lanuguages but not in 
+java
+	in java all are considered as modifiers only there is no word like specifiers
+Ex:-
+	
+	Which modifier are applicabel for classes 
+Public Class's
+
+	if class declaired as a pubic then we can access that from any where  .
+
+
+
+
+

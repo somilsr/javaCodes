@@ -1,0 +1,33 @@
+class Date 
+{
+ private int date ,year;
+ private String month;
+
+ public void setId(int date)
+ {
+ this.date=date;
+ }
+ public void setYear(int year)
+ {
+ this.year=year;
+ }
+ public void setMonth(String month)
+ {
+ this.month=month;
+ }
+
+ int getDate()
+ {
+ return date;
+ }
+ String  getMonth()
+ {
+ return month;
+ }
+ int getYear()
+ {
+ return year;
+ }
+
+ Strnig getDdate()
+ { return getDate()+"/"+getMonth()+"/"+getYear();}
